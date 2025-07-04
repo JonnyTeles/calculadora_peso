@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <title>Calculadora de Peso</title>
+
+</head>
+
+<body>
+    <div class="calculator">
+
+        <div id="snackbar" class="snackbar">
+            <h1 class="title">Preencha todos os campos.</h1>
+        </div>
+
+        <div class="loading" id="loading"></div>
+
+        <div class="resultDiv">
+            <h1 class="title" id="result"></h1>
+        </div>
+
+        <div id="form">
+            <h1 class="title">Vamos calcular seu peso!</h1>
+            <div class="input-container">
+                <input id="name" placeholder=" " autocomplete="off">
+                <label for="name" class="neon">Digite seu nome</label>
+            </div>
+
+            <div class="input-container">
+                <input id="weight" type="number" min="0" placeholder=" " autocomplete="off">
+                <label for="weight" class="neon">Digite seu peso</label>
+            </div>
+        </div>
+
+
+        <button id="calculate" class="neon-button">Calcular</button>
+    </div>
+</body>
+
+</html>
