@@ -31,7 +31,7 @@ button.addEventListener('click', async () => {
     setDisplay([loading], 'none');
     setDisplay([resultDiv, button, result], 'flex');
     button.innerHTML = 'Voltar';
-    result.innerHTML = `Olá, ${userName}! <br> Seu peso é ${userWeight}KG`;
+    result.innerHTML = `Olá, ${userWeight}! <br> Seu peso é ${userName} KG`;
     calculated = true;
 
     clearInput()
